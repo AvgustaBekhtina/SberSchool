@@ -10,8 +10,8 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         try {
-            FileInputStream file_in = new FileInputStream("C:\\Users\\rk-pa\\IdeaProjects\\Lesson4App\\inputFile.txt");
-            BufferedInputStream bis = new BufferedInputStream(file_in);
+            FileInputStream file = new FileInputStream("C:\\Users\\rk-pa\\IdeaProjects\\Lesson4App\\inputFile.txt");
+            BufferedInputStream bis = new BufferedInputStream(file);
             String str = new String();
 
             int i;
