@@ -1,7 +1,10 @@
+package Model;
+
 public class Card {
     private int Type;
     private int Pin;
-    private double Balance;
+    private balance Balance = new balance();
+    private currency Currency = new currency();
 
     public int getType() {
         return Type;
@@ -19,11 +22,7 @@ public class Card {
         Pin = pin;
     }
 
-    public double getBalance() {
-        return Balance;
-    }
-
-    public void setBalance(double balance) {
-        Balance = balance;
+    public balance getBalance() {
+        return this.Balance;
     }
 }

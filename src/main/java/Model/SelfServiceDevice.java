@@ -1,4 +1,6 @@
-public class SelfServiceTerminal {
+package Model;
+
+public class SelfServiceDevice {
     private int Type;
 
     public int getType() {
