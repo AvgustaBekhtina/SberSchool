@@ -1,6 +1,6 @@
 package UI;
 
-import Model.Card;
+import Client.Card;
 
 public class PinCodeUI {
     private int status;

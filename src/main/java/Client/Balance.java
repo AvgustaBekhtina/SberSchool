@@ -1,7 +1,7 @@
-package Model;
+package Client;
 
 import java.math.BigDecimal;
-public class balance {
+public class Balance {
     private BigDecimal available;
 
     public BigDecimal getBal() {
