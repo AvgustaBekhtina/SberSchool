@@ -1,6 +1,6 @@
-package Model;
+package Client;
 
-public class currency {
+public class Currency {
     private int code;
     private String name;
 
